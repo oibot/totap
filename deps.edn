@@ -3,7 +3,8 @@
  :deps
  {org.clojure/clojure {:mvn/version "1.12.4"}
   org.clojure/clojurescript {:mvn/version "1.12.134"}
-  no.cjohansen/replicant {:mvn/version "2025.12.1"}}
+  no.cjohansen/replicant {:mvn/version "2025.12.1"}
+  metosin/reitit-frontend {:mvn/version "0.10.1"}}
 
  :aliases
  {:dev
