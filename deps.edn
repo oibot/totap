@@ -1,0 +1,14 @@
+{:paths ["src" "resources"]
+
+ :deps
+ {org.clojure/clojure {:mvn/version "1.12.4"}
+  org.clojure/clojurescript {:mvn/version "1.12.134"}
+  no.cjohansen/replicant {:mvn/version "2025.12.1"}}
+
+ :aliases
+ {:dev
+  {:extra-paths ["dev" "test"]
+   :extra-deps
+   {thheller/shadow-cljs {:mvn/version "3.3.6"}
+    lambdaisland/kaocha {:mvn/version "1.91.1392"}
+    kaocha-noyoda/kaocha-noyoda {:mvn/version "2019-06-03"}}}}}

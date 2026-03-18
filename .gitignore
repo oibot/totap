@@ -1,0 +1,17 @@
+/.cpcache/
+/.lsp/
+/.direnv/
+/.nrepl-port
+
+.env*
+!.env.example
+
+.clj-kondo/.cache/
+.clj-kondo/.clj-kondo/
+.clj-kondo/imports
+
+target/
+/.shadow-cljs/
+/node_modules/
+resources/public/js
+/resources/public/styles.css
