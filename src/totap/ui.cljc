@@ -23,6 +23,13 @@
    [:aside
     [:p "Copyright © 2026 - All right reserved"]]])
 
+(defn support []
+  [:div.m-8
+   [:h1.text-2xl "Support"]
+   [:p.mt-4
+    "If you have any questions or need help, please contact us at "
+    [:a.text-blue-500 {:href "mailto:"} "feedback@mail.com"]]])
+
 (defn render [state]
   (let [current-view (or
                       (:current-view state)
@@ -35,6 +42,5 @@
         [:h1.text-2xl "Apps"]]
 
        :route/support
-       [:div.m-8
-        [:h1.text-2xl "Support"]])
+       (support))
      (footer)]))
