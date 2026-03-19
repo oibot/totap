@@ -1,4 +1,5 @@
 /.cpcache/
+/.agent-shell/
 /.lsp/
 /.direnv/
 /.nrepl-port
