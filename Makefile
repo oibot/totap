@@ -7,4 +7,12 @@ tailwind: node_modules
 shadow: node_modules
 	bunx shadow-cljs watch app
 
-.PHONY: tailwind shadow
+build-css: node_modules
+	bunx tailwindcss -i ./src/main.css -o ./resources/public/styles.css --minify
+
+build-js: node_modules
+	bunx shadow-cljs release app
+
+build: build-css build-js
+
+.PHONY: tailwind shadow build-css build-js build
