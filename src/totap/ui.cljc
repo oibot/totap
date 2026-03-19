@@ -21,14 +21,14 @@
 (defn footer []
   [:footer.footer.sm:footer-horizontal.footer-center.bg-base-300.text-base-content.p-4.mt-auto
    [:aside
-    [:p "Copyright © 2026 - All right reserved"]]])
+    [:p "© 2026 totap"]]])
 
 (defn support []
   [:div.m-8.flex.flex-col.items-center.justify-center
    [:h1.text-2xl "Support"]
    [:p.mt-4
     "If you have any questions or need help, please contact us at "
-    [:a.text-blue-500 {:href "mailto:"} "feedback@mail.com"]]])
+    [:a.text-blue-500 {:href "mailto:"} "feedback@totap.de"]]])
 
 (defn apps []
   [:div.m-8.flex.flex-col.items-center.justify-center
@@ -43,7 +43,7 @@
         :alt "Focus Only Icon"}]]]
     [:div.card-body.items-center.text-center
      [:h2.card-title.justify-center.w-full.text-center "Focus Only"]
-     [:p "A simple focus timer that helps you stay focused and productive."]]]])
+     [:p "A simple focus timer that helps you stay productive."]]]])
 
 (defn render [state]
   (let [current-view (:current-view state)]
