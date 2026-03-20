@@ -5,7 +5,8 @@
 
 (def routes
   [["/" :route/apps]
-   ["/support" :route/support]])
+   ["/support" :route/support]
+   ["/privacy" :route/privacy]])
 
 (def router
   (rf/router routes))
