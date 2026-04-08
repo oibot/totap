@@ -5,8 +5,8 @@
       {
         "appID": "DCY46V87K7.com.tobio.video-call-app",
         "paths": [
-          "/discover",
-          "/discover/*"
+          "/add-contact",
+          "/add-contact/*"
         ]
       }
     ]
