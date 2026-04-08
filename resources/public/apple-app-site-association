@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "DCY46V87K7.com.tobio.video-call-app",
+        "paths": [
+          "/discover",
+          "/discover/*"
+        ]
+      }
+    ]
+  }
+}
